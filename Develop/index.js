@@ -90,5 +90,37 @@ function generateMarkdown() {
       var icon = "![License](https://img.shields.io/badge/license-Unlicense-green)\n"
   }
 
+  fs.appendFile('README.md',`
+  \n# ${answers.title}\n
+  ${icon}\n
+  ## Description\n
+  ${answers.description}\n
+  ## Table of Contents\n
+  [Installation](#installation)\n
+  [Usage](#usage)\n
+  [Contributing](#contributing)\n
+  [Tests](#tests)\n
+  [License](#license)\n
+  [Questions](#questions)\n
+  ## Installation\n
+  ${answers.installation}\n
+  ## Usage\n
+  ${answers.Usage}\n
+  ## contributing\n
+  ${answers.contributing}\n
+  ## Tests\n
+  ${answers.Tests}\n
+  ## License\n
+  This application is covered under the following license: ${answers.licences}\n
+  ## Questions\n
+   You can view more information here: ${answers.GitHub}\n
+  \n
+  If you have any further questions please them to: ${answers.email}\n
+  `, (err) =>
+      err ? console.error(err) : console.log('Commit logged!'))
+  })
+
 }
+
+
 
