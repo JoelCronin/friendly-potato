@@ -53,3 +53,42 @@ const questions = [
         },
 ];
 
+// TODO: Create a function to write README file
+function writeToFile(fileName, data) {}
+
+// TODO: Create a function to initialize app
+function init() {
+  generateMarkdown()
+}
+
+// Function call to initialize app
+init();
+
+
+
+function generateMarkdown() {
+  inquirer.prompt(questions)
+
+  .then((answers) => {
+
+
+    if(answers.licences === "GNU AGPLv3"){
+      var icon = "![License](https://img.shields.io/badge/license-AGPLv3-green)\n"
+  } else if(answers.licences === "GNU GPLv3") {
+      var icon = "![License](https://img.shields.io/badge/license-GPLv3-green)\n"
+  } else if(answers.licences === "GNU LGPLv3") {
+      var icon = "![License](https://img.shields.io/badge/license-LGPLv3-green)\n"
+  } else if(answers.licences === "Mozilla Public License 2.0") {
+      var icon = "![License](https://img.shields.io/badge/license-Mozilla-green)\n"
+  } else if(answers.licences === "Apache License 2.0") {
+      var icon = "![License](https://img.shields.io/badge/license-Apache-green)\n"
+  } else if(answers.licences === "MIT License") {
+      var icon = "![License](https://img.shields.io/badge/license-MIT-green)\n"
+  } else if(answers.licences === "Boost Software License 1.0") {
+      var icon = "![License](https://img.shields.io/badge/license-Boost-green)\n"
+  } else {
+      var icon = "![License](https://img.shields.io/badge/license-Unlicense-green)\n"
+  }
+
+}
+
