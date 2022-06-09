@@ -1,12 +1,12 @@
 
-# hi
+# gg
 
-![License](https://img.shields.io/badge/license-Mozilla-green)
+![License](https://img.shields.io/badge/license-AGPLv3-green)
 
 
 ## Description
 
-dd
+gg
 
 ## Table of Contents
 
@@ -24,29 +24,29 @@ dd
 
 ## Installation
 
-dd
+g
 
 ## Usage
 
-dd
+g
 
 ## contributing
 
-dd
+g
 
 ## Tests
 
-d
+gg
 
 ## License
 
-This application is covered under the following license: Mozilla Public License 2.0
+This application is covered under the following license: GNU AGPLv3
 
 ## Questions
 
-  You can view more information here: dd
+  You can view more information here: 
 
 
 
-If you have any further questions please them to: ddddd
+If you have any further questions please them to: g
 

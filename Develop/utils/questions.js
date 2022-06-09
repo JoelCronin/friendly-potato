@@ -1,4 +1,5 @@
-const questions = [
+//Questions asked to User
+const listed = [
     {
         name: "title",
         message: "What is the title of this README?",
@@ -47,4 +48,4 @@ const questions = [
         },
 ];
 
-module.exports = questions;
+module.exports = {listed}
