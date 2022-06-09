@@ -68,7 +68,7 @@ This application is covered under the following license: ${answers.licences}\n
 ## Questions\n
   You can view more information here: ${answers.GitHub}\n
 \n
-If you have any further questions please them to: ${answers.email}\n
+If you have any further questions please send them to: ${answers.email}\n
 `, (err) =>
 err ? console.error(err) : console.log('Commit logged!'))
       }
