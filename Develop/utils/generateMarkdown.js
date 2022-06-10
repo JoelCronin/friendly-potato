@@ -59,14 +59,14 @@ ${answers.description}\n
 ${answers.installation}\n
 ## Usage\n
 ${answers.Usage}\n
-## contributing\n
+## Contributing\n
 ${answers.contributing}\n
 ## Tests\n
 ${answers.Tests}\n
 ## License\n
 This application is covered under the following license: ${answers.licences}\n
 ## Questions\n
-  You can view more information here: ${answers.GitHub}\n
+My GitHUb username is: ${answers.GitHub} which can be accessed by [clicking here](https://github.com/JoelCronin) \n
 \n
 If you have any further questions please send them to: ${answers.email}\n
 `, (err) =>

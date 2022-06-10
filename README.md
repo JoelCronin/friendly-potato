@@ -24,13 +24,13 @@ In this project, I was asked to build an automated README generator that populat
 
 ## Installation
 
-To use this you will need to run: 'node index.js' on the command line
+To install this you will need to run: 'npm install' on the command line
 
 ## Usage
 
 To use this you will need to run: 'node index.js' on the command line
 
-## contributing
+## Contributing
 
 To contribute to this, clone the repo locally and commit on a seperate branch
 

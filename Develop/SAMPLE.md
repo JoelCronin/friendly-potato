@@ -24,13 +24,13 @@ In this project, I was asked to build an automated README generator that populat
 
 ## Installation
 
-To use this yourself you will need to install Inquirer using: 'npm i inquirer' on the command line
+To install this you will need to run: 'npm install' on the command line
 
 ## Usage
 
 To use this you will need to run: 'node index.js' on the command line
 
-## contributing
+## Contributing
 
 To contribute to this, clone the repo locally and commit on a seperate branch
 
@@ -44,9 +44,9 @@ This application is covered under the following license: The Unlicense
 
 ## Questions
 
-  You can view more information here: JoelCronin
+My GitHUb username is: JoelCronin which can be accessed by [clicking here](https://github.com/JoelCronin) 
 
 
 
-If you have any further questions please send them to: joel@test.com
+If you have any further questions please send them to: joel.cronin@gmail.com
 
